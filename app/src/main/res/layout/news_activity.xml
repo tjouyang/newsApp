@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/news_photo"
+        android:scaleType="centerCrop"
+        android:layout_width="400dp"
+        android:layout_height="200dp" />
+    <TextView
+        android:id="@+id/news_desc"
+        android:layout_width="match_parent"
+        android:textSize="14sp"
+        android:layout_below="@+id/news_photo"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
